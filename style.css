@@ -19,7 +19,7 @@ body.light-theme {
   --color-primary: #c9a962;
   --color-primary-dark: #a88b4a;
   --color-text: #1a1714;
-  --color-text-muted: #5f5b55;
+  /* --color-text-muted: #5f5b55; */
   --color-border: #d6d1ca;
 }
 
@@ -112,14 +112,14 @@ h4 {
 }
 
 .btn-outline {
-  background-color: transparent;
-  border-color: var(--color-text);
-  color: var(--color-text);
+  background-color: #000000;
+  border-color: #000000;
+  color: #ffffff;
 }
 
 .btn-outline:hover {
-  background-color: var(--color-text);
-  color: var(--color-bg);
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .btn-full {
@@ -229,15 +229,16 @@ h4 {
 }
 body.light-theme .nav.scrolled {
   background: rgba(214, 184, 112, 0.95);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px); 
 }
 
 body.light-theme .nav {
   background: rgba(214, 184, 112, 0.15);
+  background-color: transparent;
 }
 
 body.light-theme .nav-link {
-  color: #1a1714;
+  color: #ffffff;
 }
 
 body.light-theme .nav-logo {
@@ -332,6 +333,8 @@ body.light-theme .nav-cta:hover {
   font-weight: 300;
   margin-bottom: 16px;
   text-shadow: 0 2px 40px rgba(0, 0, 0, 0.3);
+  /* color:#c9a962; */
+  color: #ffffff;
 }
 
 .hero-subtitle {
@@ -702,6 +705,7 @@ body.light-theme .nav-cta:hover {
   grid-template-columns: 1fr 1fr;
   gap: 80px;
   align-items: start;
+  color: #ffffff;
 }
 
 .reservation-info p {
